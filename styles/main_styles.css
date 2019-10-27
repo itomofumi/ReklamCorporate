@@ -332,13 +332,13 @@ section
 	left: 0;
 	width: 100%;
 	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
+	background: #dc3545;
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: #dc3545;
 }
 
 /*********************************
@@ -507,7 +507,7 @@ section
 	font-size: 24px;
 	line-height: 1.5;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #dc3545;
 }
 .item_1 span:first-child
 {
@@ -520,7 +520,7 @@ section
 }
 .item_1 span:nth-child(3)
 {
-	font-size: 236px;
+	font-size: 200px;
 	font-weight: 800;
 	line-height: 1;
 	letter-spacing: 0.1em;
