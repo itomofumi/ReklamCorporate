@@ -165,11 +165,11 @@
 								<form id="reply_form" action="post" data-netlify-recaptcha="true">
 									<div>
 										<input class="input_field reply_form_name" type="text" placeholder="氏名"
-											required="required" data-error="Name is required.">
+											required="required" data-error="Name is required." name="name">
 										<input class="input_field reply_form_email" type="email" placeholder="メール"
-											required="required" data-error="Valid email is required.">
+											required="required" data-error="Valid email is required." name="email">
 										<input class="input_field reply_form_subject" type="text" placeholder="件名"
-											required="required" data-error="Subject is required.">
+											required="required" data-error="Subject is required." name="subject">
 										<textarea class="text_field reply_form_message" name="message"
 											placeholder="メッセージ" rows="4" required
 											data-error="Please, write us a message."></textarea>
@@ -181,7 +181,6 @@
 									</div>
 
 								</form>
-
 							</div>
 						</div>
 
