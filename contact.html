@@ -32,7 +32,7 @@
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="services.html">Services</a></li>
-					<li><a href="about.html">About Us</a></li>
+					<!--<li><a href="about.html">About Us</a></li>-->
 					<li class="active"><a href="#">Contact</a></li>
 				</ul>
 
@@ -164,26 +164,23 @@
 
 								<form id="reply_form" action="post" data-netlify="true">
 									<div>
-										<input id="reply_form_name" class="input_field reply_form_name" type="text"
-											placeholder="氏名" required="required" data-error="Name is required.">
-										<input id="reply_form_email" class="input_field reply_form_email" type="email"
-											placeholder="メール" required="required" data-error="Valid email is required.">
-										<input id="reply_form_subject" class="input_field reply_form_subject"
-											type="text" placeholder="件名" required="required"
-											data-error="Subject is required.">
-										<textarea id="reply_form_message" class="text_field reply_form_message"
-											name="message" placeholder="メッセージ" rows="4" required
+										<input class="input_field reply_form_name" type="text" placeholder="氏名"
+											required="required" data-error="Name is required." name="name">
+										<input class="input_field reply_form_email" type="email" placeholder="メール"
+											required="required" data-error="Valid email is required." name="email">
+										<input class="input_field reply_form_subject" type="text" placeholder="件名"
+											required="required" data-error="Subject is required." name="subject">
+										<textarea class="text_field reply_form_message" name="message"
+											placeholder="メッセージ" rows="4" required
 											data-error="Please, write us a message."></textarea>
 									</div>
 									<div>
-										<button id="reply_form_submit" type="submit" class="reply_submit_btn trans_300"
-											value="Submit">
+										<button type="submit" class="reply_submit_btn trans_300" value="Submit">
 											送信
 										</button>
 									</div>
 
 								</form>
-
 							</div>
 						</div>
 
@@ -246,10 +243,10 @@
 							<div class="logo footer_logo">
 								<a href="#"><span>R</span>eklam</a>
 							</div>
-
+							<!--
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae enim enim. Sed nec
 								dignissim purus.</p>
-
+							-->
 							<!-- Social -->
 							<div class="footer_social">
 								<ul>
