@@ -1118,3 +1118,55 @@ section
 {
 	color: #28262d;
 }
+
+/*********************************
+Others
+*********************************/
+.content_box1 {
+    padding: 0.5em 1em;
+    margin: 4em 0;
+    font-weight: bold;
+    color: #6091d3;/*文字色*/
+    background: #FFF;
+    border: solid 3px #6091d3;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.content_box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.content_box1 h2 {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.content_box1 p {
+	margin: 0;
+	margin-top: 16px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	color: black;
+	text-align: left;
+}
+
+.content_box1 ul {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+	color: gray;
+	text-align: left;
+}
+
+.content_box2 {
+	margin: 0;
+	margin-bottom: 40px;
+}
+
+.content_box2 p {
+	margin: 0;
+	margin-top: 16px;
+	margin-bottom: 40px;
+	font-size: 32px;
+	color: black;
+}
