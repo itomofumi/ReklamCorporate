@@ -353,7 +353,7 @@ section
 .logo a
 {
 	font-size: 36px;
-	font-weight: 500;
+	font-weight: 700;
 	color: #fefefe;
 	letter-spacing: 0.1em;
 	line-height: 128px;
@@ -1341,7 +1341,7 @@ section
 }
 .cta_content p
 {
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: 500;
 	line-height: 1.875;
 	color: #FFFFFF;
@@ -1356,7 +1356,7 @@ section
 }
 .cta_image img
 {
-	width: 776px;
+	width: 450px;
 	height: auto;
 }
 
