@@ -469,7 +469,7 @@
 {
 	h1{font-size: 24px;}
 	h2{font-size: 20px;}
-	p{font-size: 13px;}
+	p{font-size: 16px;}
 	.header
 	{
 		height: 68px;
@@ -594,4 +594,9 @@
 @media only screen and (max-width: 400px)
 {
 	
+}
+
+.content_box2 img {
+	width: 370px;
+	height: 350px;
 }
