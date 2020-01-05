@@ -1178,3 +1178,8 @@ Others
 .price_table {
 	margin-top: 100px;
 }
+
+.content_box2 img {
+	width: 500px;
+	height: 400px;
+}
