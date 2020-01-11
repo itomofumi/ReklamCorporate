@@ -1526,6 +1526,13 @@ section
 	color: #cacaca;
 	margin-top: 65px;
 }
+.footer_cr_tmp
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
+	margin-top: 65px;
+}
 .footer_cr_2
 {
 	display: none;
