@@ -103,6 +103,7 @@ a, a:hover, a:visited, a:active, a:link
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	color: #ffffff;
 }
 p a:active
 {
@@ -1524,6 +1525,13 @@ section
 	font-size: 16px;
 	font-weight: 500;
 	color: #cacaca;
+	margin-top: 65px;
+}
+.footer_cr_tmp
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #ffffff;
 	margin-top: 65px;
 }
 .footer_cr_2
