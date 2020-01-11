@@ -1076,6 +1076,13 @@ section
 	color: #cacaca;
 	margin-top: 65px;
 }
+.footer_cr_tmp
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 65px;
+}
 .footer_cr_2
 {
 	display: none;
@@ -1162,23 +1169,6 @@ Others
 	margin: 0;
 	margin-bottom: 40px;
 }
-
-.content_box2 p {
-	margin: 0;
-	margin-top: 16px;
-	margin-bottom: 40px;
-	font-size: 32px;
-	color: black;
-}
-.step {
-	font-size: 18px;
-	margin-bottom: 60px;
-}
-
-.price_table {
-	margin-top: 100px;
-}
-
 .content_box2 img {
 	width: 500px;
 	height: 400px;
@@ -1186,19 +1176,16 @@ Others
 .content_box2 p {
 	margin: 0;
 	padding: 0;
-	font-size: 25px;
+	font-size: 20px;
 	text-align: left;
 	color: gray;
+	max-width: 800px;
 }
 
-h1 {
-	border-left: solid 10px red;
-	text-align: left;
-	padding-left: 20px;
-	margin-bottom: 30px;
-}
 .step {
 	text-align: left;
+	font-size: 18px;
+	margin-bottom: 60px;
 }
 .step h2 {
 	padding: 5px;
@@ -1219,6 +1206,78 @@ h1 {
 	text-align: left;
 	max-width: 800px;
 }
+
+.price_table {
+	margin-top: 100px;
+}
+
+h1 {
+	border-left: solid 10px red;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
 .footer {
 	padding: 0;
+}
+
+.service {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: solid 5px gray;
+	width: 400px;
+	height: 300px;
+}
+.service .feature h1 {
+	border: none;
+	padding-left: 0;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+}
+.service .feature i {
+	padding-right: 20px;
+	font-size: 30px;
+}
+.service .title:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+.service .title .free {
+	padding-left: 10px;
+	color: orange;
+}
+.service .title .icon {
+	padding-top: 10px;
+	font-size: 50px;
+}
+.service .title p {
+	font-weight: bold;
+	font-size: 20px;
+}
+.service .text {
+	padding-top: 20px;
+	float: left;
+	width: 50%;
+}
+.service .icon {
+	text-align: center;
+	float: left;
+	width: 50%;
+}
+.service .content p {
+	max-width: 400px;
+}
+.point {
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	text-align: center;
+	display: inline-block;
+	background-color: orange;
+}
+.point span {
+	display: block;
 }
