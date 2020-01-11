@@ -1219,3 +1219,6 @@ h1 {
 	text-align: left;
 	max-width: 800px;
 }
+.footer {
+	padding: 0;
+}
