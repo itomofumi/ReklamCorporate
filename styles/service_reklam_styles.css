@@ -1183,3 +1183,39 @@ Others
 	width: 500px;
 	height: 400px;
 }
+.content_box2 p {
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	text-align: left;
+	color: gray;
+}
+
+h1 {
+	border-left: solid 10px red;
+	text-align: left;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+.step {
+	text-align: left;
+}
+.step h2 {
+	padding: 5px;
+	margin-bottom: 20px;
+	border-bottom: dotted 1px gray;
+	text-align: left;
+}
+.step i {
+	color: gray;
+	margin-right: 10px;
+}
+.step h3 {
+	text-align: left;
+}
+.step p {
+	color: black;
+	font-size: 16px;
+	text-align: left;
+	max-width: 800px;
+}
