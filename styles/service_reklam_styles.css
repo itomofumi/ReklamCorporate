@@ -1225,9 +1225,9 @@ h1 {
 	margin-top: 50px;
 	margin-bottom: 20px;
 	padding: 10px;
-	border: solid 5px gray;
-	width: 400px;
-	height: 300px;
+	border: solid 5px #eeeeee;
+	width: 350px;
+	height: 220px;
 }
 .service .feature h1 {
 	border: none;
@@ -1239,33 +1239,6 @@ h1 {
 .service .feature i {
 	padding-right: 20px;
 	font-size: 30px;
-}
-.service .title:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-.service .title .free {
-	padding-left: 10px;
-	color: orange;
-}
-.service .title .icon {
-	padding-top: 10px;
-	font-size: 50px;
-}
-.service .title p {
-	font-weight: bold;
-	font-size: 20px;
-}
-.service .text {
-	padding-top: 20px;
-	float: left;
-	width: 50%;
-}
-.service .icon {
-	text-align: center;
-	float: left;
-	width: 50%;
 }
 .service .content p {
 	max-width: 400px;
